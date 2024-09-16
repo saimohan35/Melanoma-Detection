@@ -45,11 +45,11 @@ Network structure
 
 Used `adam` optimizer and `sparse_categorical_crossentropy` as loss function with `accuracy` as metric
 
-> First model: Baseline model with above structure
+- First model: Baseline model with above structure
 
-> Second model: Data augumentation using keras utilities, batch normalization after every convolution layer, dropout after final convolution layer & fully connected layer, regularization in fully connected layer.
+- Second model: Data augumentation using keras utilities, batch normalization after every convolution layer, dropout after final convolution layer & fully connected layer, regularization in fully connected layer.
 
-> Third model: Data augumentation with Augumentor library to handle class imbalance. But, architecture is same as second model. This helped to overcome underfitting and overfitting issues upto certain extent.
+- Third model: Data augumentation with Augumentor library to handle class imbalance. But, architecture is same as second model. This helped to overcome underfitting and overfitting issues upto certain extent.
 
 #### Detailed process, plots, Observations and conclusions are provided in python notebook.
 
